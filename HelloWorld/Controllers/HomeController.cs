@@ -26,7 +26,7 @@ namespace HelloWorld.Controllers
 		public ActionResult Contact()
 		{
 			// Fixed critical bug Admin-003.
-			ViewBag.Message = "Your contact page.";
+			ViewBag.Message = "Your contact page. Added";
 
 			return View();
 		}
